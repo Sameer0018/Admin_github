@@ -5,6 +5,7 @@ import React from 'react';
 
 const LoginPage = () => {
     return (
+        <div className='login_body'>
         <div className="login-container">
             <div className="login-box">
                 <h2>SIGN IN</h2>
@@ -33,6 +34,7 @@ const LoginPage = () => {
                     <p>Don't have an account? <a href="#">SIGN UP</a></p>
                 </div>
             </div>
+        </div>
         </div>
     );
 }
